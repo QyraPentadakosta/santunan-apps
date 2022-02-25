@@ -33,31 +33,31 @@
             <div class="container">
                 <div class="outer-box clearfix">
                     <div class="float-left">
-                        <figure class="logo-box"><a href="index-2.html"><img src="{{asset('')}}assets/images/logo.png" alt="" title=""></a></figure>
-                        <div class="language dropdownn"><a class="dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">Eng<span class="icon fa fa-caret-down"></span></a>
+                        {{-- <figure class="logo-box"><a href="index-2.html"><img src="{{asset('')}}assets/images/logo.png" alt="" title=""></a></figure> --}}
+                        {{-- <div class="language dropdownn"><a class="dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">Eng<span class="icon fa fa-caret-down"></span></a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
                                 <li><a href="#">Eng</a></li>
                                 <li><a href="#">Chi</a></li>
                                 <li><a href="#">Ger</a></li>
                                 <li><a href="#">Fre</a></li>
                             </ul>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="float-right upper-right clearfix">
                         <div class="nav-outer clearfix">
                             <nav class="main-menu navbar-expand-lg">
-                                <div class="navbar-header">
+                                {{-- <div class="navbar-header">
                                     <!-- Toggle Button -->
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     </button>
-                                </div>
+                                </div> --}}
                                 <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
                                         <li class="current dropdown"><a href="#">Home</a>
-                                            <div class="megamenu">
+                                            {{-- <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-4 column">
                                                         <div class="inner-column">
@@ -102,9 +102,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </li>
-                                        <li class="dropdown"><a href="#">Portfolio</a>
+                                        {{-- <li class="dropdown"><a href="#">Portfolio</a>
                                             <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-4 column">
@@ -146,9 +146,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
-                                        <li class="dropdown"><a href="#">About</a>
-                                            <ul>
+                                        </li> --}}
+                                        <li class="dropdown"><a href="#">Tentang</a>
+                                            {{-- <ul>
                                                 <li><a href="about.html">About v1</a></li>
                                                 <li><a href="about-2.html">About v2</a></li>
                                                 <li><a href="team.html">Team v1</a></li>
@@ -157,10 +157,10 @@
                                                 <li><a href="review.html">Review Page</a></li>
                                                 <li><a href="cases.html">Our Cases</a></li>
                                                 <li><a href="feature.html">Feature Page</a></li>
-                                            </ul>
+                                            </ul> --}}
                                         </li>
-                                        <li class="dropdown"><a href="#">Page</a>
-                                            <div class="megamenu">
+                                        <li class="dropdown"><a href="#">Cara Pengajuan</a>
+                                            {{-- <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-3 column">
                                                         <div class="inner-column">
@@ -206,10 +206,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </li>
-                                        <li class="dropdown"><a href="#">Blog</a>
-                                            <div class="megamenu">
+                                        <li class="dropdown"><a href="#">Persyaratan</a>
+                                            {{-- <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-6 column">
                                                         <div class="inner-column">
@@ -238,10 +238,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </li>
-                                        <li class="dropdown"><a href="#">Elements</a>
-                                            <div class="megamenu">
+                                        <li class="dropdown"><a href="#">Pertanyaan Umum</a>
+                                            {{-- <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-3 column">
                                                         <div class="inner-column">
@@ -292,13 +292,25 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </li>
+                                        {{-- <li class="dropdown"><a href="#">Cek Data</a> --}}
+                                            {{-- <ul>
+                                                <li><a href="about.html">About v1</a></li>
+                                                <li><a href="about-2.html">About v2</a></li>
+                                                <li><a href="team.html">Team v1</a></li>
+                                                <li><a href="team-2.html">Team v2</a></li>
+                                                <li><a href="team-3.html">Team v3</a></li>
+                                                <li><a href="review.html">Review Page</a></li>
+                                                <li><a href="cases.html">Our Cases</a></li>
+                                                <li><a href="feature.html">Feature Page</a></li>
+                                            </ul> --}}
+                                        {{-- </li> --}}
                                     </ul>
                                 </div>
                             </nav><!-- Main Menu End-->
                             <div class="menu-right-content clearfix">
-                                <div class="cart-box-outer">
+                                {{-- <div class="cart-box-outer">
                                     <a href="shop.html">
                                         <i class="fas fa-shopping-cart"></i>
                                         <span class="number">0</span>
@@ -320,7 +332,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="nav-toggler">
                                     <button class="nav-btn">
                                         <span class="icon-bar"></span>

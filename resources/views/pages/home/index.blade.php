@@ -9,9 +9,9 @@
                 <div class="row">
                     <div class="col-lg-9 col-md-12 col-sm-12 content-column">
                         <div class="content-box">
-                            <span class="floted-text">Agopa</span>
-                            <h3>Wide Eye is a full-service creative design </h3>
-                            <div class="text">Wide Eye is a full-service creative agency. We launch captivating <br> brands that change the world.</div>
+                            <span class="floted-text">eSantunan</span>
+                            <h3>Selamat Datang di eSantunan Kematian. </h3>
+                            <div class="text">Untuk pengajuan santunan, sudah bisa dilakukan penginputan. Bagi operator desa, yang belum mengisi Data Penandatangan Surat, dimohon untuk mengisi terlebih dahulu Penandatangan (Nama Kepala Desa/Lurah) dan Jabatan Penandatangan pada menu Profil. Terima kasih.-</div>
                             <div class="btn-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"><a href="#" class="btn-style-one">Get Started</a></div>
                         </div>
                     </div>
