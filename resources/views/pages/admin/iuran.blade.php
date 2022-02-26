@@ -76,8 +76,8 @@
                                 <label class="col-md-2 col-form-label">Nama</label>
                                 <div class="col-md-10">
                                     <select class="form-select" name="id_user">
-                                        @foreach ($user as $item)
                                         <option>--Nama Anggota--</option>
+                                        @foreach ($user as $item)
                                         <option value="{{$item->id}}">{{$item->name}}</option>
                                         @endforeach
                                     </select>
