@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -17,11 +18,12 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-        return view('pages.home.index');
+    $data =0;
+        return view('pages.home.index', compact('data'));
 });
 
 Auth::routes([
-
+    'register' => true,
     'reset' => false, // Password Reset Routes...
     'verify' => false, // Email Verification Routes...
 ]);
@@ -34,15 +36,19 @@ Route::group(['prefix'=>'admin','middleware'=>['auth', 'auth.admin']],function()
     Route::controller(AdminController::class)->group(function(){
         Route::get('/','index');
         Route::get('/anggota','anggota');
+        Route::post('/anggota','tambahAnggota');
         Route::get('/iuran','iuran');
+        Route::post('/iuran','tambahIuran');
         Route::get('/pengajuan','pengajuan');
     });
 });
 
 
 Route::group(['prefix'=>'user','middleware'=>['auth', 'auth.user']],function(){
-    Route::controller(AdminController::class)->group(function(){
+    Route::controller(UserController::class)->group(function(){
         Route::get('/','index');
-        Route::get('/pengajuan','index');
+        Route::get('/tambah-pengajuan','tambahPengajuan');
+        Route::post('/tambah-pengajuan','tambahDataPengajuan');
+        Route::get('/pengajuan','pengajuan');
     });
 });

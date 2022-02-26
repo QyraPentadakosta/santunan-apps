@@ -83,7 +83,7 @@
                 <div class="single-item">
                     <div class="row">
                         <div class="col-xl-4 col-lg-12 col-md-12 image-column">
-                            <figure class="image-box paroller"><img src="{{asset('')}}image/alur.jpeg" style="width: 150%" alt=""></figure>
+                            <figure class="image-box paroller"><img src="{{asset('')}}image/alur.jpeg" style="width: 100%" alt=""></figure>
                         </div>
                         <div class="col-xl-6 col-lg-12 col-md-12 offset-xl-2 content-column">
                             <div class="content-box wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -219,7 +219,7 @@
     <!-- faq-section end -->
 
     <!-- call-to-action -->
-    <section class="call-to-action" id="cek">
+    {{-- <section class="call-to-action" id="cek">
         <figure class="image-box flot-bob-y"><img src="images/resource/call-to-action-1.png" alt=""/></figure>
         <div class="container">
             <div class="inner-box">
@@ -228,16 +228,32 @@
                     <h3>Cek Penerima Santunan?</h3>
                 </div>
                 <div class="call-to-action-form default-form">
-                    <form action="#" method="post">
+                    <form action="/cek-data" method="post">
+                        @method('get')
+                        @csrf
                         <div class="form-group">
                             <input type="text" name="name" placeholder="Ketik nik almarhum/almarhumah" required>
                         </div>
                         <div class="form-group message-btn" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                            <button class="btn-style-one" type="submit">Cek Data</button>
+                            <button class="btn-style-one" data-toggle="modal" data-target="#penerimaan" type="submit">Cek Data</button>
                         </div>
                     </form>
                 </div>
-                {{-- <hr> --}}
+
+                @if ($data == 1)
+                <div class="card mt-5" style="width: 100%">
+                    <div class="card-body">
+                      <h5 class="card-title" style="text-align: center">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                @else
+
+                @endif
+
                 <div class="title-block mt-5">
                     <h3>Tracking Permohonan Santunan</h3>
                 </div>
@@ -247,13 +263,53 @@
                             <input type="text" name="name" placeholder="Ketik nik almarhum/almarhumah" required>
                         </div>
                         <div class="form-group message-btn" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                            <button class="btn-style-one" type="submit">Cek Data</button>
+                            <button class="btn-style-one" data-toggle="modal" data-target="#permohonan"  type="submit">Cek Data</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- call-to-action end -->
+
+    {{-- <div class="modal fade" id="penerimaan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="permohonan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+    </div> --}}
 
 @endsection

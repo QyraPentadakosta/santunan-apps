@@ -40,7 +40,12 @@
                     <span key="t-dashboards">Dashboards</span>
                 </a>
             </li>
-
+            <li>
+                <a href="{{url('')}}/user/tambah-pengajuan" class="waves-effect">
+                    <i class="bx bx-id-card"></i>
+                    <span key="t-chat">Tambah Pengajuan</span>
+                </a>
+            </li>
             <li>
                 <a href="{{url('')}}/user/pengajuan" class="waves-effect">
                     <i class="bx bx-id-card"></i>

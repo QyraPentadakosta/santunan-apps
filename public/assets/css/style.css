@@ -424,7 +424,7 @@ figure{
   background-color:#320740;
   background-position:center center;
   background-repeat:no-repeat;
-  background-image:url(../images/icons/preloader.gif);
+  background-image: url('http://127.0.0.1:8000/image/logo.png');
 }
 
 .scroll-top {

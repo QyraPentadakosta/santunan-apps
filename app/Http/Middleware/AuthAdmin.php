@@ -17,7 +17,7 @@ class AuthAdmin
      */
     public function handle(Request $request, Closure $next)
     {
-        if (Auth::check()) {
+        if (Auth::check() && Auth::user()->roles == 'admin') {
             return $next($request);
         } else {
             abort(403);
