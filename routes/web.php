@@ -16,10 +16,9 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-// Route::get('/', function () {
-//     // return redirect('/login');
-//     return redirect('pages.home.index');
-// });
+Route::get('/', function () {
+        return view('pages.home.index');
+});
 
 Auth::routes([
     'register' => false, // Registration Routes...
@@ -29,17 +28,10 @@ Auth::routes([
 
 Route::get('/logout', [LoginController::class, 'logout']);
 
-Route::get('/login', function () {
-    return redirect('/login');
-    // return redirect('layouts.main');
-});
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-
-
-// Route::group(['middleware'=>['auth', 'auth.admin']],function(){
+Route::group(['prefix'=>'admin','middleware'=>['auth', 'auth.admin']],function(){
     Route::controller(AdminController::class)->group(function(){
         Route::get('/','index');
     });
-// });
+});

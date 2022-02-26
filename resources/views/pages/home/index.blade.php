@@ -3,21 +3,21 @@
 
 
     <!-- banner-style-one -->
-    <section class="banner-style-one">
+    <section class="banner-style-one" id="home">
         <div class="container">
             <div class="content-box">
                 <div class="row">
                     <div class="col-lg-9 col-md-12 col-sm-12 content-column">
                         <div class="content-box">
-                            <span class="floted-text">eSantunan</span>
+                            <span class="floted-text">e-Santunan</span>
                             <h3>Selamat Datang di eSantunan Kematian. </h3>
                             <div class="text">Untuk pengajuan santunan, sudah bisa dilakukan penginputan. Bagi operator desa, yang belum mengisi Data Penandatangan Surat, dimohon untuk mengisi terlebih dahulu Penandatangan (Nama Kepala Desa/Lurah) dan Jabatan Penandatangan pada menu Profil. Terima kasih.-</div>
-                            <div class="btn-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"><a href="#" class="btn-style-one">Get Started</a></div>
+                            {{-- <div class="btn-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"><a href="#" class="btn-style-one">Get Started</a></div> --}}
                         </div>
                     </div>
                 </div>
                 <div class="image-box">
-                    <figure class="image flot-bob-y"><img src="{{asset('')}}image/tesjpg.jpg" alt=""></figure>
+                    <figure class="image flot-bob-y"><img src="{{asset('')}}image/satu.jpg" alt=""></figure>
                 </div>
             </div>
         </div>
@@ -25,127 +25,19 @@
     <!-- banner-style-one end -->
 
 
-    <!-- clients-section -->
-    <section class="clients-section">
-        <div class="container">
-            <div class="clients-outer">
-                <ul class="clients-carousel owl-carousel">
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{asset('')}}assets/images/clients/clients-1.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{asset('')}}assets/images/clients/clients-2.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{asset('')}}assets/images/clients/clients-3.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{asset('')}}assets/images/clients/clients-4.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="{{asset('')}}assets/images/clients/clients-1.png" alt=""></a></figure>
-                    </li>
-                </ul>
-                <h3 class="title-text">Trusted by the world's leading companies</h3>
-            </div>
-        </div>
-    </section>
-    <!-- clients-section end -->
-
-
-    <!-- features-section -->
-    <section class="features-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 feature-block d-flex">
-                    <div class="title-box my-auto">
-                        <h3>We motivate people to think</h3>
-                        <p>We build unique digital products that help brands grow, <br> attract new customers, and reach new markets with <br> outstanding graphic design </p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 feature-block">
-                    <div class="feature-block-one" data-aos="fade-up">
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <div class="hover-content"></div>
-                        <div class="icon-box">
-                            <i class="fa fa-piggy-bank"></i>
-                        </div>
-                        <h3><a href="#">Creative Branding</a></h3>
-                        <p>Our creativity is driven by data in an effort to give you the best possible result and position your brand for success.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 feature-block">
-                    <div class="feature-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <div class="hover-content"></div>
-                        <div class="icon-box">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <h3><a href="#">Digital Communication</a></h3>
-                        <p>We keep things straightforward, using simplicity to create powerful brands, and our unique creative vision to create campaigns</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 feature-block">
-                    <div class="feature-block-one" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <span class="snow-dot"></span>
-                        <div class="hover-content"></div>
-                        <div class="icon-box">
-                            <i class="far fa-gem"></i>
-                        </div>
-                        <h3><a href="#">Mobile apps</a></h3>
-                        <p>We’re an international branding & communications agencyWe've grown up from a local business to a global partner with offices around the world.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- features-section end -->
-
-
-    <!-- video-section -->
-    <section class="video-section centred">
-        <div class="container">
-            <div class="inner-box">
-                <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link lightbox-image" data-caption=""><i class="fa fa-play"></i></a>
-                <h3><span>Creative Labs</span> is a startup incubator focused on innovation<br />and technology</h3>
-            </div>
-        </div>
-    </section>
-    <!-- video-section end -->
-
-
     <!-- creative-section -->
-    <section class="creative-section" style="background-image: url(images/background/creative-bg-1.png);">
+    <section class="creative-section" id="tentang" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 inner-column">
                     <div class="content-block">
                         <div class="title-block">
-                            <span class="floated-text">About</span>
-                            <h3>Creative Design is Our Passion</h3>
+                            <span class="floated-text">Tentang e-Santunan</span>
+                            <h3 style="color: #6e6870">Tentang e-Santunan</h3>
                         </div>
-                        <p>We’re on a mission to start a conversation with your customers in this fast connected world. Let’s discover, build and grow your digital business.</p>
-                        <p>We build unique digital products that help brands grow, attract new customers, and reach new markets with outstanding graphic design and experience through the digital
-                            transformation of various aspects of their businesses.</p>
-                        <div class="fact-counter clearfix">
+                        <p style="color: #6e6870">E-Sakti adalah Aplikasi Santunan Kematian yang digunakan sebagai media warga Kabupaten Batang untuk mengajukan permohonan santunan kematian. Masyarakat miskin yang meninggal dunia akan mendapatkan santunan kematian sebesar Rp. 1.000.000 (Satu Juta Rupiah).</p>
+                        <p style="color: #6e6870">Persyaratan yang dibutuhkan yakni KTP serta Kartu Keluarga (KK) Almarhum/Almarhumah dan Ahli Waris. Proses pengajuan santunan melalui desa setempat dan akan diverifikasi oleh Dinas Sosial Kabupaten Batang.</p>
+                        {{-- <div class="fact-counter clearfix">
                             <div class="counter-block wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <h4>Agency Result</h4>
                                 <div class="count-outer count-box">
@@ -165,13 +57,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="btn-box wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms"><a href="#" class="btn-style-one">Capabilities</a></div>
+                        <div class="btn-box wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms"><a href="#" class="btn-style-one">Capabilities</a></div> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image-block wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <figure class="image-box alter-image"><img src="{{asset('')}}assets/images/resource/creative-img-1.png" alt=""></figure>
-                        <figure class="image-box paroller"><img src="{{asset('')}}assets/images/resource/creative-img-2.png" alt=""></figure>
+                        {{-- <figure class="image-box alter-image"><img src="{{asset('')}}assets/images/resource/creative-img-1.png" alt=""></figure> --}}
+                        <figure class="image-box paroller"><img src="{{asset('')}}image/dua.jpeg" style="width: 100%" alt=""></figure>
                     </div>
                 </div>
             </div>
@@ -181,38 +73,31 @@
 
 
     <!-- agency-section -->
-    <section class="agency-section">
+    <section class="agency-section" id="pengajuan">
         <div class="container">
             <div class="sec-title centred">
-                <h2>We’re a design agency</h2>
-                <p>We build unique digital products that help brands grow, attract new customers, and<br />reach new markets with outstanding graphic design </p>
+                <h2>Cara Pengajuan</h2>
+                <p>Berikut kami jelaskan tentang tata cara pengajuan permohonan santunan kematian</p>
             </div>
             <div class="inner-content">
                 <div class="single-item">
                     <div class="row">
                         <div class="col-xl-4 col-lg-12 col-md-12 image-column">
-                            <figure class="image-box paroller"><img src="{{asset('')}}assets/images/resource/agency-1.png" alt=""></figure>
+                            <figure class="image-box paroller"><img src="{{asset('')}}image/alur.jpeg" style="width: 150%" alt=""></figure>
                         </div>
                         <div class="col-xl-6 col-lg-12 col-md-12 offset-xl-2 content-column">
                             <div class="content-box wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <h2><a href="#">Business Planning Schedule Concept</a></h2>
-                                <p>We’re on a mission to start a conversation with your customers in this fast connected world. Let’s discover, build and grow your digital business. Challenging work stimulates us. Building engaging digital experiences, using the latest trends, is at heart of all the web design services we render</p>
-                                <a href="#" class="btn-style-one">View More</a>
+                                <h2><a href="#">Prosedur Permohonan Santunan Kematian</a></h2>
+                                    <ul>
+                                        <li><strong>1.</strong> Ahli Waris / Keluarga melaporkan berita meninggal dunia kepada Ketua RT</li>
+                                        <li><strong>2.</strong> Ketua RT membuat berita acara laporan kematian yang ditujukan ke Kepala Desa</li>
+                                        <li><strong>3.</strong> Kepala desa membuat permohonan santunan</li>
+                                        <li><strong>4.</strong> Upload data dukung untuk permohonan santunan kematian</li>
+                                        <li><strong>5.</strong> Permohonan dikirim melalui aplikasi esakti</li>
+                                        <li><strong>6.</strong> Setleah permohonan dikirim, ditunggu sampai status permohonan berubah menjadi "setuju dicairkan"</li>
+                                        <li><strong>7.</strong> Jika status telah berubah, selanjutnya ahli waris membawa bukti asli data dukung yang diupload ke dinsos untuk mencairkan santunan</li>
+                                    </ul>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-item">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-12 col-md-12 content-column">
-                            <div class="content-box wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <h2><a href="#">Build beautiful, effective Design for you.</a></h2>
-                                <p>Create and deliver eye-catching emails that drive real business results with our easy-to-use design, personalization, and automation tools. create campaigns that connect with audiences and ignite your brand.</p>
-                                <a href="#" class="btn-style-one">View More</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-12 col-md-12 offset-xl-2 image-column">
-                            <figure class="image-box paroller"><img src="{{asset('')}}assets/images/resource/agency-2.png" alt=""></figure>
                         </div>
                     </div>
                 </div>
@@ -222,66 +107,8 @@
     <!-- agency-section end -->
 
 
-    <!-- testimonial-section -->
-    <section class="testimonial-section centred" style="background-image: url(images/background/testimonial-bg-1.png);">
-        <div class="user-image">
-            <img src="{{asset('')}}assets/images/resource/testi-1-1.jpg" alt="" class="testi-person-1" />
-            <img src="{{asset('')}}assets/images/resource/testi-1-2.jpg" alt="" class="testi-person-2" />
-            <img src="{{asset('')}}assets/images/resource/testi-1-3.jpg" alt="" class="testi-person-3" />
-            <img src="{{asset('')}}assets/images/resource/testi-1-4.jpg" alt="" class="testi-person-4" />
-            <img src="{{asset('')}}assets/images/resource/testi-1-5.jpg" alt="" class="testi-person-5" />
-            <img src="{{asset('')}}assets/images/resource/testi-1-6.jpg" alt="" class="testi-person-6" />
-            <img src="{{asset('')}}assets/images/resource/testi-1-7.jpg" alt="" class="testi-person-7" />
-        </div>
-        <div class="container">
-            <div class="bubble-box">
-                <div class="bubbles-1"></div>
-                <div class="bubbles-2"></div>
-                <div class="bubbles-3"></div>
-                <div class="bubbles-4"></div>
-            </div>
-            <div class="title-block text-center">
-                <h3>what people say about us</h3>
-            </div>
-            <div class="testimonial-carousel owl-theme owl-carousel nav-style-one owl-dots-none">
-                <div class="item">
-                    <div class="signle-testimonial-block">
-                        <figure><img src="{{asset('')}}assets/images/icons/testimonial-quote.png" alt=""/></figure>
-                        <p>We’re on a mission to start a conversation with your customers in this fast <br> connected world. Let’s discover, build and grow your digital business.</p>
-                        <div class="author-info">
-                            <h3>Mahfuz Riad</h3>
-                            <span class="designation">Ui, Ux & Product Designer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="signle-testimonial-block">
-                        <figure><img src="{{asset('')}}assets/images/icons/testimonial-quote.png" alt=""/></figure>
-                        <p>We’re on a mission to start a conversation with your customers in this fast <br> connected world. Let’s discover, build and grow your digital business.</p>
-                        <div class="author-info">
-                            <h3>Susy Dangler</h3>
-                            <span class="designation">Ui, Ux & Product Designer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="signle-testimonial-block">
-                        <figure><img src="{{asset('')}}assets/images/icons/testimonial-quote.png" alt=""/></figure>
-                        <p>We’re on a mission to start a conversation with your customers in this fast <br> connected world. Let’s discover, build and grow your digital business.</p>
-                        <div class="author-info">
-                            <h3>Arielle Dinham</h3>
-                            <span class="designation">Ui, Ux & Product Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- testimonial-section end -->
-
-
     <!-- pricing-section -->
-    <section class="pricing-section">
+    <section class="pricing-section" id="syarat">
         <div class="shape-box">
             <div class="bubble"></div>
             <img src="{{asset('')}}assets/images/icons/pricing-shape-1.png" alt="" class="pricing-shape-one">
@@ -289,58 +116,38 @@
         </div>
         <div class="container">
             <div class="sec-title text-center">
-                <span class="floated-text">Plan</span>
-                <h2>Our Pricing</h2>
+                <span class="floated-text">Syarat</span>
+                <h2>Syarat Permohonan Santunan Kematian</h2>
             </div>
             <div class="tabs-box">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 inner-column">
                         <div class="inner-box">
                             <div class="sec-title">
-                                <h2>Always know what you’ll pay.</h2>
-                                <p>Everything you need to run your software business – from payments to licensing to taxes to insights</p>
-                            </div>
-                            <div class="tab-btns tab-buttons">
-                                <div class="tab-btn" data-tab="#tab-1">Monthly</div>
-                                <div class="tab-btn active-btn" data-tab="#tab-2">Yearly</div>
+                                <h2>Syarat Sah :</h2>
+                                <p>Syarat sah yang berhak mengajukan Permohonan Santunan Kematian adalah Warga Miskin yang terdaftar di Basis Data Terpadu (BDT) Kemisikinan di Kabupaten Batang</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div class="tabs-content">
-                            <div class="tab clearfix" id="tab-1">
-                                <div class="pricing-table">
-                                    <div class="table-head">
-                                        <span>Month</span>
-                                        <h3>STANDARD</h3>
-                                        <div class="price">$29</div>
-                                    </div>
-                                    <div class="table-content">
-                                        <ul>
-                                           <li>All payment methods</li>
-                                           <li>Payer support</li>
-                                           <li>Trials, licensing & subscriptions</li>
-                                           <li>Premium Integrations</li>
-                                        </ul>
-                                        <a href="#" class="bye-btn"><i class="fa fa-check"></i></a>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="tab active-tab clearfix" id="tab-2">
                                 <div class="pricing-table">
                                     <div class="table-head">
-                                        <span>Year</span>
-                                        <h3>STANDARD</h3>
-                                        <div class="price">$79</div>
+                                        {{-- <span>Year</span> --}}
+                                        <h3>Syarat Pendukung :</h3>
+                                        {{-- <div class="price">$79</div> --}}
                                     </div>
                                     <div class="table-content">
                                         <ul>
-                                           <li>All payment methods</li>
-                                           <li>Payer support</li>
-                                           <li>Trials, licensing & subscriptions</li>
-                                           <li>Premium Integrations</li>
+                                           <li>Fotokopi KTP Almarhum / Almarhumah</li>
+                                           <li>Fotokopi KTP Ahli Waris</li>
+                                           <li>Fotokopi KK Almarhum / Almarhumah</li>
+                                           <li>Fotokopi KK Ahli Waris</li>
+                                           <li>Surat Keterngan Meninggal Dunia dari desa setempat (by Aplikasi)</li>
+                                           <li>Surat Permohonan Santunan Kematian (by Aplikasi)</li>
                                         </ul>
-                                        <a href="#" class="bye-btn"><i class="fa fa-check"></i></a>
+                                        {{-- <a href="#" class="bye-btn"><i class="fa fa-check"></i></a> --}}
                                     </div>
                                 </div>
                             </div>
@@ -352,95 +159,95 @@
     </section>
     <!-- pricing-section end -->
 
-
-    <!-- news-section -->
-    <section class="news-section centred">
-        <div class="large-container">
-            <div class="title-block">
-                <span class="floated-text">News</span>
-                <h2> Announcements and  <br> news list </h2>
+    <!-- faq-section -->
+    <section class="faq-section" id="umum">
+        <div class="container">
+            <div class="inner-content">
+                <div class="sec-title text-center">
+                    <h2>Pertanyaan Umum</h2>
+                </div>
+                <ul class="accordion-box">
+                    <li class="accordion block active-block">
+                        <div class="acc-btn active">
+                            <div class="icon-outer">
+                                <span class="icon fa fa-plus"></span>
+                            </div>
+                            Bagaimana cara mengajukan Permohonan Santunan?
+                        </div>
+                        <div class="acc-content current">
+                            <div class="content">
+                                <div class="text">
+                                    <p>Presedur permohonan dan syarat bisa dilihat pada kolom menu Cara Pengajuan dan Persyaratan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="accordion block">
+                        <div class="acc-btn"><div class="icon-outer"><span class="icon fa fa-plus"></span></div>
+                        Apakah semua warga Kab. Batang berhak mengajukan Permohonan Santunan Kematian?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Yang berhak mengajukan permohonan santunan kematian adalah Warga Miskin yang masuk dalam Database Basis Data Terpadu Kemiskinan.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="accordion block">
+                        <div class="acc-btn"><div class="icon-outer"><span class="icon fa fa-plus"></span></div>Apabila warga benar-benar miskin, tapi tidak masuk database, Apakah bisa mengajukan Permohonan Santunan Kematian?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">
+                                    <p>Warga benar-benar miskin tapi tidak masuk dataabase BDT dapat mengajukan permohonan santunan kematian, dari desa dapat mengisi permohonan santunan khusus warga yang tidak masuk dalam BDT, kemudian TIm Kabupaten akan melakukan verifikasi ke lapangan apakah warga tersebut benar-benar masuk kategori miskin, apablila lolos permohonan santunan akan disetujui. Namun perlu diketahui, untuk warga yang tidak masuk kategori miskin, jangan mencoba-coba untuk mengajukan permohonan khusus, karena tim yang turun langsung dari Bupati Batang, termasuk bagi operator sistem, jangan memasukkan permohonan yang secara jelas warga tersebut tidak masuk kategori miskin.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 news-block">
-                    <div class="news-block-two">
-                        <figure class="image-box"><a href="blog-single.html"><img src="{{asset('')}}assets/images/resource/news-1.jpg" alt=""></a></figure>
-                        <div class="lower-content">
-                            <h3><a href="blog-single.html">Reflecting on My Failure to Build a Billion-Dollar</a></h3>
-                            <div class="post-info">Feb 11, 7 min read</div>
-                            <div class="author-info">
-                                <figure class="author-thumb"><img src="{{asset('')}}assets/images/resource/news-author-1.png" alt=""></figure>
-                                <div class="author-name">Tamim Anjum</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 news-block">
-                    <div class="news-block-two">
-                        <figure class="image-box"><a href="blog-single.html"><img src="{{asset('')}}assets/images/resource/news-2.jpg" alt=""></a></figure>
-                        <div class="lower-content">
-                            <h3><a href="blog-single.html">Your Next Phone May Have a Hole in the Screen</a></h3>
-                            <div class="post-info">Feb 17, 5 min read</div>
-                            <div class="author-info">
-                                <figure class="author-thumb"><img src="{{asset('')}}assets/images/resource/news-author-2.png" alt=""></figure>
-                                <div class="author-name">Owen Williams</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 news-block">
-                    <div class="news-block-two">
-                        <figure class="image-box"><a href="blog-single.html"><img src="{{asset('')}}assets/images/resource/news-3.jpg" alt=""></a></figure>
-                        <div class="lower-content">
-                            <h3><a href="blog-single.html">8 Reasons Why Apple Won’t Buy Netflix</a></h3>
-                            <div class="post-info">Feb 12, 11 min read</div>
-                            <div class="author-info">
-                                <figure class="author-thumb"><img src="{{asset('')}}assets/images/resource/news-author-3.png" alt=""></figure>
-                                <div class="author-name">Lance Ulanoff</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 news-block">
-                    <div class="news-block-two">
-                        <figure class="image-box"><a href="blog-single.html"><img src="{{asset('')}}assets/images/resource/news-4.jpg" alt=""></a></figure>
-                        <div class="lower-content">
-                            <h3><a href="blog-single.html">Partner Reasons with local influencers</a></h3>
-                            <div class="post-info">Feb 12, 11 min read</div>
-                            <div class="author-info">
-                                <figure class="author-thumb"><img src="{{asset('')}}assets/images/resource/news-author-1.png" alt=""></figure>
-                                <div class="author-name">Lance Ulanoff</div>
-                            </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 faq-content">
+                    <div class="content-box">
+                        <div class="inner-box">
+                            <h4>Tidak mendapat jawaban?</h4>
+                            <div class="text">Kami dapat membantu! Kirim pesan kepada kami dan kami akan segera menghubungi Anda kembali.</div>
+                            <a href="contact.html">Hubungi kami</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- news-section end -->
-
+    <!-- faq-section end -->
 
     <!-- call-to-action -->
-    <section class="call-to-action">
-        <figure class="image-box flot-bob-y"><img src="{{asset('')}}assets/images/resource/call-to-action-1.png" alt=""/></figure>
+    <section class="call-to-action" id="cek">
+        <figure class="image-box flot-bob-y"><img src="images/resource/call-to-action-1.png" alt=""/></figure>
         <div class="container">
             <div class="inner-box">
                 <div class="title-block">
-                    <span>How can we help you ?</span>
-                    <h3>Let's stay in touch</h3>
+                    <span>Cek Data</span>
+                    <h3>Cek Penerima Santunan?</h3>
                 </div>
                 <div class="call-to-action-form default-form">
                     <form action="#" method="post">
                         <div class="form-group">
-                            <input type="text" name="name" placeholder="Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="email" placeholder="Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" placeholder="Message" required></textarea>
+                            <input type="text" name="name" placeholder="Ketik nik almarhum/almarhumah" required>
                         </div>
                         <div class="form-group message-btn" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                            <button class="btn-style-one" type="submit">Send Message</button>
+                            <button class="btn-style-one" type="submit">Cek Data</button>
+                        </div>
+                    </form>
+                </div>
+                {{-- <hr> --}}
+                <div class="title-block mt-5">
+                    <h3>Tracking Permohonan Santunan</h3>
+                </div>
+                <div class="call-to-action-form default-form">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Ketik nik almarhum/almarhumah" required>
+                        </div>
+                        <div class="form-group message-btn" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                            <button class="btn-style-one" type="submit">Cek Data</button>
                         </div>
                     </form>
                 </div>
@@ -448,27 +255,5 @@
         </div>
     </section>
     <!-- call-to-action end -->
-
-
-    <!-- cta-section -->
-    <section class="cta-section centred">
-        <div class="inner-shape-background">
-            <div class="container">
-                <div class="icon-box">
-                    <figure><img src="{{asset('')}}assets/images/icons/cta-3.png" alt="awesome image" class="inner-shape-one"></figure>
-                    <figure><img src="{{asset('')}}assets/images/icons/cta-4.png" alt="awesome image" class="inner-shape-two"></figure>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="content-box">
-                            <h3>Get started with Campaign  <br> Monitor today.</h3>
-                            <div class="btn-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"><a href="#" class="btn-style-one">Get started</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- cta-section end -->
 
 @endsection

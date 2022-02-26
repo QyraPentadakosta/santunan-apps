@@ -6,12 +6,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-<title>Agopa - HTML 5 Template Preview</title>
+<title>e-santunan</title>
 
 <!-- Stylesheets -->
 <link href="{{asset('')}}assets/css/style.css" rel="stylesheet">
 <link href="{{asset('')}}assets/css/responsive.css" rel="stylesheet">
-<link rel="icon" href="{{asset('')}}assets/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{asset('')}}image/logo.png" type="image/x-icon">
 
 </head>
 
@@ -33,30 +33,25 @@
             <div class="container">
                 <div class="outer-box clearfix">
                     <div class="float-left">
-                        {{-- <figure class="logo-box"><a href="index-2.html"><img src="{{asset('')}}assets/images/logo.png" alt="" title=""></a></figure> --}}
-                        {{-- <div class="language dropdownn"><a class="dropdown-toggle" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">Eng<span class="icon fa fa-caret-down"></span></a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
-                                <li><a href="#">Eng</a></li>
-                                <li><a href="#">Chi</a></li>
-                                <li><a href="#">Ger</a></li>
-                                <li><a href="#">Fre</a></li>
-                            </ul>
-                        </div> --}}
+                        <figure class="logo-box"><a href="#home">
+                            <img src="{{asset('')}}image/logo.png"  alt="" title="">
+                            {{-- <h>e-Santunan</h> --}}
+                        </a></figure>
                     </div>
                     <div class="float-right upper-right clearfix">
                         <div class="nav-outer clearfix">
                             <nav class="main-menu navbar-expand-lg">
-                                {{-- <div class="navbar-header">
+                                <div class="navbar-header">
                                     <!-- Toggle Button -->
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     </button>
-                                </div> --}}
+                                </div>
                                 <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="#">Home</a>
+                                        <li class="current dropdown"><a href="#home">Home</a>
                                             {{-- <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-4 column">
@@ -147,7 +142,7 @@
                                                 </div>
                                             </div>
                                         </li> --}}
-                                        <li class="dropdown"><a href="#">Tentang</a>
+                                        <li class="dropdown"><a href="#tentang">Tentang</a>
                                             {{-- <ul>
                                                 <li><a href="about.html">About v1</a></li>
                                                 <li><a href="about-2.html">About v2</a></li>
@@ -159,7 +154,7 @@
                                                 <li><a href="feature.html">Feature Page</a></li>
                                             </ul> --}}
                                         </li>
-                                        <li class="dropdown"><a href="#">Cara Pengajuan</a>
+                                        <li class="dropdown"><a href="#pengajuan">Cara Pengajuan</a>
                                             {{-- <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-3 column">
@@ -208,7 +203,7 @@
                                                 </div>
                                             </div> --}}
                                         </li>
-                                        <li class="dropdown"><a href="#">Persyaratan</a>
+                                        <li class="dropdown"><a href="#syarat">Persyaratan</a>
                                             {{-- <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-6 column">
@@ -240,7 +235,7 @@
                                                 </div>
                                             </div> --}}
                                         </li>
-                                        <li class="dropdown"><a href="#">Pertanyaan Umum</a>
+                                        <li class="dropdown"><a href="#umum">Pertanyaan Umum</a>
                                             {{-- <div class="megamenu">
                                                 <div class="row">
                                                     <div class="col-lg-3 column">
@@ -294,53 +289,12 @@
                                                 </div>
                                             </div> --}}
                                         </li>
-                                        {{-- <li class="dropdown"><a href="#">Cek Data</a> --}}
-                                            {{-- <ul>
-                                                <li><a href="about.html">About v1</a></li>
-                                                <li><a href="about-2.html">About v2</a></li>
-                                                <li><a href="team.html">Team v1</a></li>
-                                                <li><a href="team-2.html">Team v2</a></li>
-                                                <li><a href="team-3.html">Team v3</a></li>
-                                                <li><a href="review.html">Review Page</a></li>
-                                                <li><a href="cases.html">Our Cases</a></li>
-                                                <li><a href="feature.html">Feature Page</a></li>
-                                            </ul> --}}
-                                        {{-- </li> --}}
+                                        <li class="dropdown">
+                                            <a href="#cek">cek data</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav><!-- Main Menu End-->
-                            <div class="menu-right-content clearfix">
-                                {{-- <div class="cart-box-outer">
-                                    <a href="shop.html">
-                                        <i class="fas fa-shopping-cart"></i>
-                                        <span class="number">0</span>
-                                    </a>
-                                </div>
-                                <div class="search-box-outer">
-                                    <div class="dropdown">
-                                        <button class="search-box-btn" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
-                                        <ul class="dropdown-menu pull-right search-panel" aria-labelledby="dropdownMenu3">
-                                            <li class="panel-outer">
-                                                <div class="form-container">
-                                                    <form method="post" action="http://azim.commonsupport.com/Agopa/blog.html">
-                                                        <div class="form-group">
-                                                            <input type="search" name="field-name" value="" placeholder="Search...." required="">
-                                                            <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div> --}}
-                                <div class="nav-toggler">
-                                    <button class="nav-btn">
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -354,7 +308,7 @@
                 <div class="clearfix">
                     <!--Logo-->
                     <div class="logo float-left">
-                        <a href="index-2.html" class="img-responsive"><img src="{{asset('')}}assets/images/small-logo.png" alt="" title=""></a>
+                        <a href="#home" class="img-responsive"><img src="{{asset('')}}image/smal-e-santunan.png" alt="" title=""></a>
                     </div>
 
                     <!--Right Col-->
@@ -363,8 +317,8 @@
                         <nav class="main-menu navbar-expand-lg">
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="#">Home</a>
-                                        <div class="megamenu">
+                                    <li class="current dropdown"><a href="#home">Home</a>
+                                        {{-- <div class="megamenu">
                                             <div class="row">
                                                 <div class="col-lg-4 column">
                                                     <div class="inner-column">
@@ -409,9 +363,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </li>
-                                    <li class="dropdown"><a href="#">Portfolio</a>
+                                    {{-- <li class="dropdown"><a href="#">Portfolio</a>
                                         <div class="megamenu">
                                             <div class="row">
                                                 <div class="col-lg-4 column">
@@ -453,9 +407,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
-                                    <li class="dropdown"><a href="#">About</a>
-                                        <ul>
+                                    </li> --}}
+                                    <li class="dropdown"><a href="#tentang">Tentang</a>
+                                        {{-- <ul>
                                             <li><a href="about.html">About v1</a></li>
                                             <li><a href="about-2.html">About v2</a></li>
                                             <li><a href="team.html">Team v1</a></li>
@@ -464,10 +418,10 @@
                                             <li><a href="review.html">Review Page</a></li>
                                             <li><a href="cases.html">Our Cases</a></li>
                                             <li><a href="feature.html">Feature Page</a></li>
-                                        </ul>
+                                        </ul> --}}
                                     </li>
-                                    <li class="dropdown"><a href="#">Page</a>
-                                        <div class="megamenu">
+                                    <li class="dropdown"><a href="#pengajuan">Cara Pengajuan</a>
+                                        {{-- <div class="megamenu">
                                             <div class="row">
                                                 <div class="col-lg-3 column">
                                                     <div class="inner-column">
@@ -513,10 +467,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </li>
-                                    <li class="dropdown"><a href="#">Blog</a>
-                                        <div class="megamenu">
+                                    <li class="dropdown"><a href="#syarat">Persyaratan</a>
+                                        {{-- <div class="megamenu">
                                             <div class="row">
                                                 <div class="col-lg-6 column">
                                                     <div class="inner-column">
@@ -545,10 +499,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </li>
-                                    <li class="dropdown"><a href="#">Elements</a>
-                                        <div class="megamenu">
+                                    <li class="dropdown"><a href="#umum">Pertanyaan Umum</a>
+                                        {{-- <div class="megamenu">
                                             <div class="row">
                                                 <div class="col-lg-3 column">
                                                     <div class="inner-column">
@@ -599,7 +553,10 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#cek">cek data</a>
                                     </li>
                                 </ul>
                             </div>
@@ -619,69 +576,45 @@
 
 
     <!-- Hidden Bar -->
-    <section class="hidden-bar">
+    {{-- <section class="hidden-bar" id="cek-data">
         <div class="inner-box">
             <div class="cross-icon"><span class="fa fa-times"></span></div>
             <div class="title">
-                <h2>Get Appointment</h2>
+                <h2>Cek Penerima Santunan?</h2>
             </div>
 
             <!--Appointment Form-->
             <div class="appointment-form">
-                <form method="post" action="http://azim.commonsupport.com/Agopa/contact.html">
+                <form method="post" action="">
                     <div class="form-group">
-                        <input type="text" name="text" value="" placeholder="Name" required>
+                        <input type="text" name="text" value="" placeholder="Ketik nik almarhum/almarhumah" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" value="" placeholder="Email Address" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="phone" value="" placeholder="Phone no." required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn-style-one">Submit now</button>
+                        <button type="submit" class="btn-style-one">Cek sekarang</button>
                     </div>
                 </form>
             </div>
+            <hr>
+            <div class="cross-icon"><span class="fa fa-times"></span></div>
+            <div class="title">
+                <h2>Tracking Permohonan Santunan</h2>
+            </div>
 
-            <!--Contact Info Box-->
-            <div class="contact-info-box">
-                <ul class="info-list">
-                    <li><a href="mailto:contact@example.com">contact@example.com</a></li>
-                    <li><a href="tel:+(123)4567890">+(123) 456 7890</a></li>
-                </ul>
-                <ul class="social-list clearfix">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Google +</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
+            <!--Appointment Form-->
+            <div class="appointment-form">
+                <form method="post" action="">
+                    <div class="form-group">
+                        <input type="text" name="text" value="" placeholder="Ketik nik almarhum/almarhumah" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn-style-one">Cek sekarang</button>
+                    </div>
+                </form>
             </div>
         </div>
-    </section>
+
+    </section> --}}
     <!--End Hidden Bar -->
-
-
-
-
-    <!-- footer-subscribe -->
-    <section class="footer-subscribe">
-        <div class="large-container">
-            <div class="footer-subscribe-form">
-                <form action="#" method="post" class="subscribe-form">
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Type Your Email" required>
-                        <button type="submit">Subscribe Now</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- footer-subscribe end -->
 
 
     <!-- main-footer -->
@@ -694,7 +627,7 @@
                             <figure class="footer-logo">
                                 <a href="index-2.html"><img src="{{asset('')}}assets/images/footer-logo.png" alt=""></a>
                             </figure>
-                            <div class="text"><i class="fa fa-location-arrow"></i> Dhaka, Barisal</div>
+                            <div class="text"><i class="fa fa-location-arrow"></i> e-Santunan</div>
                             <ul class="footer-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -707,7 +640,7 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div class="footer-widget contact-widget">
-                                    <h3 class="widget-title">Contact us</h3>
+                                    <h3 class="widget-title">Hubungi kami</h3>
                                     <ul class="contact-list">
                                         <li>
                                             <i class="fa fa-map-marker-alt"></i>
@@ -724,7 +657,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            {{-- <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div class="footer-widget link-widget">
                                     <h3 class="widget-title">Company</h3>
                                     <ul class="links-list">
@@ -734,8 +667,8 @@
                                         <li><a href="#">Partners</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            </div> --}}
+                            {{-- <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div class="footer-widget link-widget">
                                     <h3 class="widget-title">Features</h3>
                                     <ul class="links-list">
@@ -745,8 +678,8 @@
                                         <li><a href="#">Careers</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            </div> --}}
+                            {{-- <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                                 <div class="footer-widget link-widget">
                                     <h3 class="widget-title">Navigation</h3>
                                     <ul class="links-list">
@@ -756,7 +689,7 @@
                                         <li><a href="#">Blog</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -765,7 +698,7 @@
         <div class="footer-bottom">
             <div class="large-container clearfix">
                 <div class="left-content">
-                    <div class="copyright">Copyrights 2019 <a href="#">Agopa</a> Template</div>
+                    <div class="copyright">Copyrights 2022 <a href="#">m.p_pentadakosta</a></div>
                 </div>
                 <div class="right-content">
                     <ul class="download-btn">
