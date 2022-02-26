@@ -12,12 +12,12 @@
                             <span class="floted-text">e-Santunan</span>
                             <h3>Selamat Datang di eSantunan Kematian. </h3>
                             <div class="text">Untuk pengajuan santunan, sudah bisa dilakukan penginputan. Bagi operator desa, yang belum mengisi Data Penandatangan Surat, dimohon untuk mengisi terlebih dahulu Penandatangan (Nama Kepala Desa/Lurah) dan Jabatan Penandatangan pada menu Profil. Terima kasih.-</div>
-                            {{-- <div class="btn-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"><a href="#" class="btn-style-one">Get Started</a></div> --}}
+                            <div class="btn-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"><a href="{{url('')}}/login" class="btn-style-one">Get Started</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="image-box">
-                    <figure class="image flot-bob-y"><img src="{{asset('')}}image/satu.jpg" alt=""></figure>
+                    <figure class="image flot-bob-y"><img src="{{asset('')}}image/depan.png" alt=""></figure>
                 </div>
             </div>
         </div>
@@ -62,8 +62,8 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image-block wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        {{-- <figure class="image-box alter-image"><img src="{{asset('')}}assets/images/resource/creative-img-1.png" alt=""></figure> --}}
-                        <figure class="image-box paroller"><img src="{{asset('')}}image/dua.jpeg" style="width: 100%" alt=""></figure>
+                        {{-- <figure class="image-box alter-image"><img src="{{asset('')}}image/logo.png" alt=""></figure> --}}
+                        <figure class="image-box paroller"><img src="{{asset('')}}image/depan2.png"  alt=""></figure>
                     </div>
                 </div>
             </div>

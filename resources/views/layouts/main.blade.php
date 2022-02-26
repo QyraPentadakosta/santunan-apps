@@ -625,7 +625,7 @@
                     <div class="col-xl-4 col-lg-12 col-md-12 small-column">
                         <div class="footer-widget about-widget">
                             <figure class="footer-logo">
-                                <a href="index-2.html"><img src="{{asset('')}}assets/images/footer-logo.png" alt=""></a>
+                                <a href="index-2.html"><img src="{{asset('')}}image/logo.png" alt=""></a>
                             </figure>
                             <div class="text"><i class="fa fa-location-arrow"></i> e-Santunan</div>
                             <ul class="footer-social">

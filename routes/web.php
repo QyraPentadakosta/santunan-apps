@@ -21,7 +21,7 @@ Route::get('/', function () {
 });
 
 Auth::routes([
-    'register' => false, // Registration Routes...
+
     'reset' => false, // Password Reset Routes...
     'verify' => false, // Email Verification Routes...
 ]);
@@ -31,6 +31,13 @@ Route::get('/logout', [LoginController::class, 'logout']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::group(['prefix'=>'admin','middleware'=>['auth', 'auth.admin']],function(){
+    Route::controller(AdminController::class)->group(function(){
+        Route::get('/','index');
+    });
+});
+
+
+Route::group(['prefix'=>'user','middleware'=>['auth', 'auth.user']],function(){
     Route::controller(AdminController::class)->group(function(){
         Route::get('/','index');
     });
