@@ -27,7 +27,12 @@ class HomeController extends Controller
         // return 'b';
         // dd(Auth::user());
         if (Auth::user()->id != null) {
-            return redirect('/admin');
+            if (Auth::user()->roles == 'admin') {
+                return redirect('/admin');
+            } else {
+                return redirect('/user');
+            }
+
         } else {
             return redirect('/');
         }

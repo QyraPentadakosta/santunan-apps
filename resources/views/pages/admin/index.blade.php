@@ -24,7 +24,7 @@
                                 <div class="col-7">
                                     <div class="text-primary p-3">
                                         <h5 class="text-primary">Welcome Back !</h5>
-                                        <p>Skote Dashboard</p>
+                                        <p>{{Auth::user()->name}}</p>
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
@@ -38,8 +38,8 @@
                                     <div class="avatar-md profile-user-wid mb-4">
                                         <img src="{{asset('')}}asset/images/users/avatar-1.jpg" alt="" class="img-thumbnail rounded-circle">
                                     </div>
-                                    <h5 class="font-size-15 text-truncate">Henry Price</h5>
-                                    <p class="text-muted mb-0 text-truncate">UI/UX Designer</p>
+                                    <h5 class="font-size-15 text-truncate">{{Auth::user()->name}}</h5>
+                                    <p class="text-muted mb-0 text-truncate">{{Auth::user()->roles}}</p>
                                 </div>
                                 <div class="col-sm-8">
                                     <div class="pt-4">

@@ -11,4 +11,19 @@ class AdminController extends Controller
     {
         return View('pages.admin.index');
     }
+
+    public function anggota()
+    {
+        return 'anggota';
+    }
+
+    public function iuran()
+    {
+        return 'iuran';
+    }
+
+    public function pengajuan()
+    {
+        return 'pengajuan';
+    }
 }

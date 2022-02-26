@@ -33,6 +33,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::group(['prefix'=>'admin','middleware'=>['auth', 'auth.admin']],function(){
     Route::controller(AdminController::class)->group(function(){
         Route::get('/','index');
+        Route::get('/anggota','anggota');
+        Route::get('/iuran','iuran');
+        Route::get('/pengajuan','pengajuan');
     });
 });
 
@@ -40,5 +43,6 @@ Route::group(['prefix'=>'admin','middleware'=>['auth', 'auth.admin']],function()
 Route::group(['prefix'=>'user','middleware'=>['auth', 'auth.user']],function(){
     Route::controller(AdminController::class)->group(function(){
         Route::get('/','index');
+        Route::get('/pengajuan','index');
     });
 });
